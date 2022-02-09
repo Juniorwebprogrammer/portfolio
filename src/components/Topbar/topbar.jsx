@@ -2,16 +2,16 @@ import ('./topbar.scss');
 
 export default function Topbar() {
     return (
-        <div className='topbar' id='topbar'>
+        <div className='topbar'>
             <div clasname='wrapper'>
                 <div className='left'>
-                    <a href='#intro'>
-                        intro
+                    <a href='#intro' className='logo'>
+                        JS
                     </a>
-                </div>
-
-                <div className='right'>
-
+                   
+                    <h1>
+                        Menu
+                    </h1>
                 </div>
             </div>
         </div>
