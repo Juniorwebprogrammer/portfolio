@@ -8,7 +8,9 @@ export default function Topbar() {
                     <a href='#intro' className='logo'>
                         JS
                     </a>
-                   
+                    <div className='itemcontainer'>
+
+                    </div>
                     <h1>
                         Menu
                     </h1>
