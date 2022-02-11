@@ -23,4 +23,48 @@
         text-decoration: none;
         color: inherit;
     }
+
+    .itemcontainer{
+        display: flex;
+        align-items: center;
+        
+
+        .icon{
+            font-size: 18px;
+            margin-right: 5px;
+        }
+    
+        span{
+            font-size: 15px;
+            font-weight: 400;
+        }
+
+    }
+
+    .menu{
+        width: 32px;
+        height: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .line-1{
+            width: 100%;
+            height: 3px;
+            background-color: $maincolor;
+        }
+
+        .line-2{
+            width: 100%;
+            height: 3px;
+            background-color: $maincolor;
+        }
+
+        .line-3{
+            width: 100%;
+            height: 3px;
+            background-color: $maincolor;
+        }
+    }
+
 }
