@@ -4,11 +4,12 @@
 .topbar {
     width: 100%;
     height: 70px;
-    background-color: $maincolor;
+    background-color: grey;
     color: white;
     position: fixed;
     top: 0;
     z-index: 2;
+    transition: all 1s ease;
 
     .left{
         padding: 10px 30px;
@@ -86,14 +87,14 @@
         .menu{
             .line-1{
                 background-color: white;
-                transform: rotate(45deg);
+                transform: rotate(43deg);
             }
             .line-2{
                 opacity: 0;
             }
             .line-3{
                 background-color: white;
-                transform: rotate(-45deg);
+                transform: rotate(-43deg);
             }
         }
     }
