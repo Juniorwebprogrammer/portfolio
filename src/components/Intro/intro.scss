@@ -56,6 +56,19 @@
                 cursor: pointer;
             }
         }
+
+        .imageback{
+            display: flex;
+            align-items: center;
+            position: relative;
+
+            img{
+                width: 150px;
+                padding-top: 50px;
+                padding-left: 80px;
+                cursor: pointer;
+            }
+        }
     }
 
     .right{
