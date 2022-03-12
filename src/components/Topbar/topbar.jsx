@@ -11,7 +11,7 @@ export default function Topbar({menuOpen,setMenuOpen}) {
                         JS
                     </a>
                     <div className='itemcontainer'>
-                        <GitHub className='icon'/>
+                        <GitHub className='icon'onClick={()=>window.open("https://github.com/Juniorwebprogrammer")}/>
                         <span> JuniorWebProgrammer</span>
                     </div>
                     <div className='itemcontainer'>

@@ -19,25 +19,25 @@ export default function Intro() {
                 </div>
                 <div className='imageContainer'>
                     <div className='img'>
-                        <img src={html} alt='html'/>
-                        <img src={css} alt='css'/>
-                        <img src={js} alt='js'/>
+                        <img src={html} alt='html' onClick={()=> window.open("https://es.wikipedia.org/wiki/HTML")}/>
+                        <img src={css} alt='css' onClick={()=> window.open("https://es.wikipedia.org/wiki/CSS")}/>
+                        <img src={js} alt='js' onClick={()=> window.open("https://es.wikipedia.org/wiki/JavaScript")}/>
                     </div>
                 </div>
                 <div className='imageContainer_2'>
                     <div className='img_2'>
-                        <img src={react} alt='react'/>
-                        <img src={scss} alt='scss'/>
-                        <img src={electron} alt='electron'/>
+                        <img src={react} alt='react' onClick={()=> window.open("https://reactjs.org/")}/>
+                        <img src={scss} alt='scss' onClick={()=> window.open("https://sass-lang.com/")}/>
+                        <img src={electron} alt='electron' onClick={()=> window.open("https://www.electronjs.org/")}/>
                     </div>
                 </div>
                 <div className='imageContainer_3'>
                     <div className='img_3'>
-                        <img src={node} alt='node'/>
-                        <img src={python} alt='python'/>
+                        <img src={node} alt='node' onClick={()=> window.open("https://nodejs.org/es/")}/>
+                        <img src={python} alt='python' onClick={()=> window.open("https://www.python.org/")}/>
                     </div>
                     <div className='imageback'>
-                        <img src={back} alt='back'/>
+                        <img src={back} alt='back' onClick={()=> window.open("https://www.djangoproject.com/")}/>
                     </div>
                 </div>
             </div>
