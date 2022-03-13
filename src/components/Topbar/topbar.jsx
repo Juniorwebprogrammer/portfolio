@@ -1,4 +1,4 @@
-import {GitHub, Mail} from '@material-ui/icons';
+import {GitHub, YouTube} from '@material-ui/icons';
 import ('./topbar.scss');
 
 
@@ -15,8 +15,8 @@ export default function Topbar({menuOpen,setMenuOpen}) {
                         <span> JuniorWebProgrammer</span>
                     </div>
                     <div className='itemcontainer'>
-                        <Mail className='icon'/>
-                        <span> juniorgarciadiaz@outlook.com </span>
+                        <YouTube className='icon' onClick={()=> window.open("https://www.youtube.com/")}/>
+                        <span> Youtube Channel</span>
                     </div>
                     <div className='menu' onClick={() => setMenuOpen(!menuOpen)}>
                         <span className='line-1'></span>
