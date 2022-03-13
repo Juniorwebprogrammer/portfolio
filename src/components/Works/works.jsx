@@ -1,5 +1,4 @@
-import Portfolio from './assets/portfolio.jpg';
-import ImgMediaCard from '../card/card.jsx';
+import ImgMediaCard from '../Work_Card/card.jsx';
 import ('./works.scss');
 
 
