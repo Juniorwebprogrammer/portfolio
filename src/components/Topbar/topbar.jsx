@@ -16,7 +16,7 @@ export default function Topbar({menuOpen,setMenuOpen}) {
                     </div>
                     <div className='itemcontainer'>
                         <YouTube className='icon' onClick={()=> window.open("https://www.youtube.com/")}/>
-                        <span> Youtube Channel</span>
+                        <span> Turincónweb</span>
                     </div>
                     <div className='menu' onClick={() => setMenuOpen(!menuOpen)}>
                         <span className='line-1'></span>

@@ -12,20 +12,33 @@ export default function Contact() {
 
     return (
         <div className='contact' id='contact'>
-            <form className='form' onSubmit={sendemail}>
-               
-                <label>Name</label>
-                <input type='text' className='form-control' id='name' name='nombre'/>
+            <div className="left">
+                <form className='form' onSubmit={sendemail}>
+
+                    <div className="name_form">
+                        <label>name</label>
+                        <input type='text' className='form-control' id='name' name='user_name'/>
+                    </div>   
+                    
+                    <div className="email_form">
+                        <label>E-mail</label>
+                        <input type='email' className='form-control' id='email' name='user_email'/>
+                    </div>
+                    
+                    <div className="message_form">
+                        <label>message</label>
+                        <input type='text' className='form-control' id='message'name='user_message'/>
+                    </div>
                 
+                <div className="buttom">
+                        <input type="submit" value="Send e-mail"></input>
+                </div>
+                </form>
+            </div>
+
+            <div className="right">
                 
-                <label>E-mail</label>
-                <input type='email' className='form-control' id='email' name='correo'/> 
-               
-                <label>Message</label>
-                <input type='text' className='form-control' id='message'name='mensaje'/>
-                
-                <input type="submit" value="Send e-mail"></input>
-            </form>
+            </div>
         </div>
     )
 }

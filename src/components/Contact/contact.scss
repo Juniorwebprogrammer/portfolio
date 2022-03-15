@@ -1,6 +1,23 @@
 .contact {
     background-color: lightblue;
-    .form {
-        padding-top: 200px;
+    display: flex;
+    .left {
+        flex: 0.5;
+        background-color: red;
+        .form {
+            padding-top: 200px;
+            padding-left: 100px;
+            overflow: hidden;
+            align-items: center;
+            position: relative;
+            background-color: black;
+            .name_form {}
+            .email_form {}
+            .message_form {}
+        }
+    }
+    .right {
+        flex: 0.5;
+        overflow: hidden;
     }
 }
